@@ -1,6 +1,4 @@
-import math
 import random
-from equipement import Equipment
 
 
 class JoulleClass:

@@ -1,7 +1,7 @@
 import math
 import random
-from equipement import Equipment
-from joulleclass import JoulleClass
+from Inventory.equipement import Equipment
+from Joulle.joulleclass import JoulleClass
 
 
 class Joulle:
@@ -19,7 +19,7 @@ class Joulle:
         self.level = 1
         self.boozelvl = 0
         self.current_health = self.health
-        
+
         # self.damage = Statsheet.calc_damage(self.equipment.weapon,self.equipment.offhand)
 
     @property
@@ -50,9 +50,9 @@ class Joulle:
         # print(f"{self.full_name}---{self.damage}---->{anodajoulle.full_name}",end="")
         anodajoulle.zul_take_damage(self.damage)
 
-
     def zul_scavenge(self):
         pass
+
     def zul_sleep(self):
         for i in range(random.randint(1,8)):
             self.zul_regen()

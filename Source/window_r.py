@@ -1,17 +1,15 @@
 # from kivy.app import App
 import random
 
-from kivy.animation import Animation
 from kivy.uix.floatlayout import FloatLayout
 from kivymd.app import MDApp
 from kivy.clock import Clock
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
 from kivy.uix.gridlayout import GridLayout
-from kivymd.icon_definitions import md_icons
 from kivymd.uix.button import MDIconButton
 from Joulle.joulle import Joulle
-from map import Map, Areas
+from World.map import Map, Areas
 
 class Joulicon(MDIconButton):
     joulz = []
