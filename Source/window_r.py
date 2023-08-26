@@ -10,8 +10,7 @@ from kivy.uix.button import Button
 from kivy.uix.gridlayout import GridLayout
 from kivymd.icon_definitions import md_icons
 from kivymd.uix.button import MDIconButton
-
-from char import Joulle
+from Joulle.joulle import Joulle
 from map import Map, Areas
 
 class Joulicon(MDIconButton):

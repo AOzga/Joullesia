@@ -3,7 +3,7 @@ import enum as e
 import kivy as kv
 from kivy.uix.widget import Widget
 
-from char import Joulle
+from Joulle.joulle import Joulle
 
 
 
